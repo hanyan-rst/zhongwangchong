@@ -4,7 +4,7 @@ import { onMounted, ref } from 'vue';
 import { ProductList } from './types/productList.ts';
 
 const headers = {
-  "User-Agent": "Mozilla/5.0 (Linux; Android 12; M2007J3SC Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 MMWEBID/8424 MicroMessenger/8.0.42.2460(0x28002A35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64",
+  "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 MicroMessenger/5.0.1",
   "Host": "wx.jwnzn.com",
   "Cookie": "JSESSIONID=1D220B1712F7285984FE6919D7375BBC",
   "Accept": "/",
