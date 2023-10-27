@@ -85,7 +85,7 @@ onMounted(() => {
 </template>
 
 <style scoped types="scss">
-div{
+h2 h3{
   margin: 10px;
 }
 .container {
