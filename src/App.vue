@@ -58,9 +58,9 @@ onMounted(() => {
 </script>
 
 <template>
+  <div>
   <h2>Welcome to DogU!</h2>
   <h3>笃学明德 经世致用</h3>
-  <div>
     <div v-if="dataLoaded">
       <div v-for="(list, index) in data" :key="index">
         <div v-if="index > 0">
@@ -81,14 +81,10 @@ onMounted(() => {
     <div v-else>
       Loading...
     </div>
-
   </div>
 </template>
 
 <style scoped types="scss">
-.app{
-  margin:10px;
-}
 .container {
   display: flex;
   flex-direction: row;
