@@ -86,14 +86,13 @@ onMounted(() => {
 </template>
 
 <style scoped types="scss">
-body{
-  margin:20;
+.app{
+  margin:10px;
 }
 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   margin: 10px;
   .btn {
     align-content: center;
