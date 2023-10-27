@@ -57,7 +57,7 @@ onMounted(() => {
     <div v-if="dataLoaded">
       <div v-for="(list, index) in data" :key="index">
         <div v-if="index > 0">
-          <div>{params[list.listindex].name}</div>
+          <div>{{ params[list.listindex].name }}</div>
           <div class="container">
             <div v-for="item in list.value" :key="item.id">
               <div v-if="item.status == '工作中'">
