@@ -15,14 +15,13 @@ const params = [
   {
     "gpsId": "51266",
     "sn": "10168679375"
+  },
+  {
+    "gpsId": "57064",
+    "sn": "10753215260"
   }
 ]
 
-let requestOptions: AxiosRequestConfig = {
-  method: 'GET',
-  headers,
-  url: "api/njjwn/eleProductList.action?queryValue=gpsId%3A57201%3BdevType%3A2%3Bsn%3A10753209527%3B"
-};
 const data = ref<[{ listindex: number, value: ProductList[] }]>([{ listindex: 0, value: [] }]);
 const dataLoaded = ref(false);
 
