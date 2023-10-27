@@ -88,6 +88,9 @@ onMounted(() => {
 h2{
   margin: 10px;
 }
+h3{
+  margin: 10px;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -95,6 +98,7 @@ h2{
   margin: 10px;
   .btn {
     align-content: center;
+    margin: 2px;
   }
 }
 </style>
