@@ -13,10 +13,12 @@ const headers = {
 
 const params = [
   {
+    "name": "DogU-1号站西食堂南侧",
     "gpsId": "51266",
     "sn": "10168679375"
   },
   {
+    "name": "DogU-10号站西食堂南侧",
     "gpsId": "57064",
     "sn": "10753215260"
   }
@@ -55,7 +57,7 @@ onMounted(() => {
     <div v-if="dataLoaded">
       <div v-for="(list, index) in data" :key="index">
         <div v-if="index > 0">
-          <div>{{ list.listindex + 1 }} 号充电站</div>
+          <div>{params[list.listindex].name}</div>
           <div class="container">
             <div v-for="item in list.value" :key="item.id">
               <div v-if="item.status == '工作中'">
