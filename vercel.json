@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:match*",
-            "destination": "http://wx.jwnzn.com/:match*"
+            "destination": "https://wx.jwnzn.com/:match*"
         }
     ],
     "headers": [
