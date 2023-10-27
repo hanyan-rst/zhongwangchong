@@ -59,8 +59,8 @@ onMounted(() => {
 
 <template>
   <div>
-  <h2>Welcome to DogU!</h2>
-  <h3>笃学明德 经世致用</h3>
+    <h2>Welcome to DogU!</h2>
+    <h3>笃学明德 经世致用</h3>
     <div v-if="dataLoaded">
       <div v-for="(list, index) in data" :key="index">
         <div v-if="index > 0">
@@ -85,6 +85,9 @@ onMounted(() => {
 </template>
 
 <style scoped types="scss">
+div{
+  margin: 10px;
+}
 .container {
   display: flex;
   flex-direction: row;
