@@ -21,7 +21,11 @@ const params = [
     "sn": "10753215260"
   }
 ]
-
+let requestOptions={
+      method: 'GET',
+      headers,
+      url: `api/njjwn/eleProductList.action?queryValue=gpsId%3A${params[0].gpsId}%3BdevType%3A2%3Bsn%3A${params[0].sn}%3B`
+    }
 const data = ref<[{ listindex: number, value: ProductList[] }]>([{ listindex: 0, value: [] }]);
 const dataLoaded = ref(false);
 
