@@ -68,10 +68,10 @@ onMounted(() => {
           <div class="container">
             <div v-for="item in list.value" :key="item.id">
               <div v-if="item.status == '工作中'">
-                <button class="btn btn-secondary">{{ item.name }}, {{ item.status }}</button>
+                <button class="btn btn-secondary">{{ item.name }}</button>
               </div>
               <div v-else-if="item.status == '空闲'">
-                <button class="btn btn-success">{{ item.name }}, {{ item.status }}</button>
+                <button class="btn btn-success">{{ item.name }}</button>
               </div>
             </div>
           </div>
@@ -86,13 +86,15 @@ onMounted(() => {
 </template>
 
 <style scoped types="scss">
+body{
+  margin:20;
+}
 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 10px;
-
   .btn {
     align-content: center;
   }
